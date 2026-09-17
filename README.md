@@ -6,6 +6,8 @@
 
 <p align="center">把常用装备与设备状态放到快捷栏旁，查看信息不再来回打开背包。</p>
 
+<p align="center"><strong>简体中文</strong> · <a href="README.en.md">English</a></p>
+
 MoreInfo 是为 Android 版 LeviLauncher 制作的游戏内信息显示模组。它在快捷栏左侧显示
 四个已穿戴装备槽，在右侧显示 FPS 与电池温度，并提供可即时生效的游戏内设置。
 
@@ -67,3 +69,4 @@ MoreInfo 后重新安装当前版本。
   LeviLauncher 与 MoreInfo 的完整版本号，并附上截图或相关日志。
 
 作者：**zhuyaqi**
+
