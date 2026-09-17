@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "id": "moreinfo",
+  "version": "0.0.20",
+  "minecraft_versions": [
+    "1.26.44.3",
+    "1.26.45.1",
+    "1.26.50.4"
+  ],
+  "info": {
+    "name": "MoreInfo",
+    "author": "zhuyaqi",
+    "description": "在快捷栏旁显示装备、精确耐久、FPS 与电池温度，并提供可即时调整的游戏内设置。",
+    "homepage_url": "https://github.com/188zhuyaqi/MoreInfo",
+    "icon": "assets/icon.png",
+    "tags": [
+      "Utility",
+      "HUD",
+      "Visual"
+    ]
+  },
+  "release_assets": {
+    "include": [
+      "MoreInfo-*.levipack"
+    ]
+  }
+}

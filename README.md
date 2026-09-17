@@ -67,4 +67,3 @@ MoreInfo 后重新安装当前版本。
   LeviLauncher 与 MoreInfo 的完整版本号，并附上截图或相关日志。
 
 作者：**zhuyaqi**
-
