@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "id": "moreinfo",
-  "version": "0.0.20",
+  "version": "1.0.0",
   "minecraft_versions": [
     "1.26.44.3",
     "1.26.45.1",
@@ -10,7 +10,7 @@
   "info": {
     "name": "MoreInfo",
     "author": "zhuyaqi",
-    "description": "在快捷栏旁显示装备、精确耐久、FPS 与电池温度，并提供可即时调整的游戏内设置。 Displays equipment, precise durability, FPS, and battery temperature next to the hotbar, with an in-game settings menu for real-time adjustments.",
+    "description": "在快捷栏旁显示盔甲与副手、精确耐久、FPS 和电池温度，并支持副手双击交互。 Displays armor, offhand items, precise durability, FPS, and battery temperature beside the hotbar, with double-tap offhand interaction.",
     "homepage_url": "https://github.com/188zhuyaqi/MoreInfo",
     "icon": "assets/icon.png",
     "tags": [
@@ -25,4 +25,3 @@
     ]
   }
 }
-

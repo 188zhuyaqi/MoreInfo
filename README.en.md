@@ -8,20 +8,24 @@
 
 <p align="center"><a href="README.md">简体中文</a> · <strong>English</strong></p>
 
-MoreInfo is an in-game information display mod for LeviLauncher on Android. It shows four equipped armor slots to the left of the hotbar, displays FPS and battery temperature to the right, and provides in-game settings that take effect immediately.
+MoreInfo is an in-game information display mod for LeviLauncher on Android. It shows four equipped armor slots and an offhand slot to the left of the hotbar, displays FPS and battery temperature to the right, and provides in-game settings that take effect immediately.
 
 ## Features
 
 - Shows your helmet, chestplate, leggings, and boots beside the hotbar
+- Shows your offhand item; double-tap the offhand slot to swap it with the currently selected hotbar item
+- If the selected hotbar slot is empty, double-tap the offhand slot to move the offhand item into that slot
 - Uses the game's item icons and preserves the enchantment glint
-- Displays armor durability bars and hides them by default at full durability
-- Long-press an armor slot to view the item's name and exact durability (current / maximum)
+- Displays durability bars for armor and offhand items and hides them by default at full durability
+- Long-press an armor or offhand slot to view the item's name and exact durability (current / maximum)
 - Displays FPS and battery temperature
 - Lets you adjust position, scale, and text size
 - Switches between vanilla and transparent slot frames
 - Saves settings immediately without requiring a game restart
 
-MoreInfo only displays information. It does not automatically swap equipment or modify your inventory.
+Offhand swaps happen only after a double-tap on the offhand slot and use the game's native network inventory request path. Items that vanilla Minecraft does not allow in the offhand are rejected. Long presses, drags, and multi-touch gestures never trigger a swap.
+
+Equip, replacement, empty-hand unequip, and continuous world/server transitions have been tested on all three supported versions. A server may still enforce its own inventory rules; MoreInfo never automatically retries a rejected or timed-out request.
 
 ## Preview
 
@@ -66,4 +70,3 @@ If the launcher reports an incompatible version, confirm that your full Minecraf
 - When reporting a problem through [Issues](https://github.com/188zhuyaqi/MoreInfo/issues), include the full versions of Minecraft, LeviLauncher, and MoreInfo, along with a screenshot or relevant logs.
 
 Author: **zhuyaqi**
-
