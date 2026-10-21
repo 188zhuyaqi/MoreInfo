@@ -21,11 +21,12 @@ MoreInfo is an in-game information display mod for LeviLauncher on Android. It s
 - Displays FPS and battery temperature
 - Lets you adjust position, scale, and text size
 - Switches between vanilla and transparent slot frames
+- Switches the interface between Simplified Chinese and English; Simplified Chinese is the default
 - Saves settings immediately without requiring a game restart
 
 Offhand swaps happen only after a double-tap on the offhand slot and use the game's native network inventory request path. Items that vanilla Minecraft does not allow in the offhand are rejected. Long presses, drags, and multi-touch gestures never trigger a swap.
 
-Equip, replacement, empty-hand unequip, and continuous world/server transitions have been tested on all three supported versions. A server may still enforce its own inventory rules; MoreInfo never automatically retries a rejected or timed-out request.
+Equip, replacement, empty-hand unequip, and continuous world/server transitions have been tested on all four supported versions. A server may still enforce its own inventory rules; MoreInfo never automatically retries a rejected or timed-out request.
 
 ## Preview
 
@@ -50,6 +51,7 @@ Equip, replacement, empty-hand unequip, and continuous world/server transitions 
 - Minecraft 1.26.44.3
 - Minecraft 1.26.45.1
 - Minecraft 1.26.50.4
+- Minecraft 1.26.52.3
 - Android ARM64
 
 Install the release that supports your exact Minecraft version. Unlisted versions are rejected instead of being force-loaded, which helps prevent crashes.
@@ -59,7 +61,7 @@ Install the release that supports your exact Minecraft version. Unlisted version
 1. Download the latest `.levipack` from [Releases](https://github.com/188zhuyaqi/MoreInfo/releases).
 2. Import the package with LeviLauncher and enable MoreInfo for the target instance.
 3. Fully close and restart the game.
-4. After entering a world, open **MoreInfo / 装备与状态栏** from the mod menu to customize the display.
+4. After entering a world, open **MoreInfo** from the mod menu to customize the display and interface language.
 
 If the launcher reports an incompatible version, confirm that your full Minecraft version appears in the supported versions above. Remove any older MoreInfo installation before installing the current release again.
 

@@ -1,5 +1,12 @@
 # 更新记录 / Changelog
 
+## 1.0.1
+
+- 新增 Minecraft 1.26.52.3 适配，单人世界与服务器中的显示、副手交互及连续操作均已通过真机测试。
+- Adds Minecraft 1.26.52.3 compatibility, device-tested for rendering, offhand interaction, and repeated operations in both single-player and multiplayer.
+- 新增游戏内语言设置，支持简体中文与英文并即时切换，默认使用简体中文。
+- Adds an in-game language setting for instant switching between Simplified Chinese and English, defaulting to Simplified Chinese.
+
 ## 1.0.0
 
 - 首个稳定版本：装备栏、副手槽、精确耐久、FPS、电池温度及游戏内设置均已完成。
