@@ -1,5 +1,18 @@
 # 更新记录 / Changelog
 
+## 1.0.2
+
+- 新增 Minecraft 1.26.60.4 支持，并修复新版经典界面下快捷栏装备与状态信息不显示的问题。
+- Adds Minecraft 1.26.60.4 support and fixes missing equipment/status information in its updated classic UI.
+- 新增潜影盒 27 格内容预览，支持快捷栏、背包及其他容器，可调整大小与位置，并分别控制两类预览的显示。
+- Adds 27-slot shulker box previews in the hotbar, inventory, and containers, with scale/position controls and separate visibility switches.
+- 预览启用时替换对应的原版文字说明；修复名称与数量闪烁，支持 `§` 彩色名称，空盒子正常显示空格子。
+- Enabled previews replace corresponding vanilla descriptions. Fixes title/count flicker, supports `§` colored names, and renders empty boxes as empty slots.
+- 新增可选“点击外部关闭预览”（默认关闭），在背包和容器中保留物品选中状态，下一次点击正常执行原版操作。
+- Adds optional “Tap outside to close preview” (off by default), preserving the selected item in inventory/container screens so the next tap works normally.
+- 新增“物品栏预览显示时长”（秒，默认 `0` 持续显示），仅对快捷栏选中预览计时；背包、容器及鼠标悬浮预览不受影响。
+- Adds “Hotbar preview duration” in seconds, defaulting to `0` for persistent display. Inventory, container, and mouse-hover previews are unaffected.
+
 ## 1.0.1
 
 - 新增 Minecraft 1.26.52.3 适配，单人世界与服务器中的显示、副手交互及连续操作均已通过真机测试。

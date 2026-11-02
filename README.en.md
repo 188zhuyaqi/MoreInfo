@@ -9,6 +9,7 @@
 <p align="center"><a href="README.md">简体中文</a> · <strong>English</strong></p>
 
 MoreInfo is an in-game information display mod for LeviLauncher on Android. It shows four equipped armor slots and an offhand slot to the left of the hotbar, displays FPS and battery temperature to the right, and provides in-game settings that take effect immediately.
+Select a shulker box to view its contents and item counts directly.
 
 ## Features
 
@@ -19,6 +20,7 @@ MoreInfo is an in-game information display mod for LeviLauncher on Android. It s
 - Displays durability bars for armor and offhand items and hides them by default at full durability
 - Long-press an armor or offhand slot to view the item's name and exact durability (current / maximum)
 - Displays FPS and battery temperature
+- Previews all 27 slots and item counts of a selected shulker box in the hotbar, inventory, and containers
 - Lets you adjust position, scale, and text size
 - Switches between vanilla and transparent slot frames
 - Switches the interface between Simplified Chinese and English; Simplified Chinese is the default
@@ -26,7 +28,18 @@ MoreInfo is an in-game information display mod for LeviLauncher on Android. It s
 
 Offhand swaps happen only after a double-tap on the offhand slot and use the game's native network inventory request path. Items that vanilla Minecraft does not allow in the offhand are rejected. Long presses, drags, and multi-touch gestures never trigger a swap.
 
-Equip, replacement, empty-hand unequip, and continuous world/server transitions have been tested on all four supported versions. A server may still enforce its own inventory rules; MoreInfo never automatically retries a rejected or timed-out request.
+Equip, replacement, empty-hand unequip, and continuous world/server transitions have been tested on supported versions. A server may still enforce its own inventory rules; MoreInfo never automatically retries a rejected or timed-out request.
+
+## Shulker Box Previews
+
+- Preview all 27 slots and item counts in the hotbar, inventory, and containers, with size and position controls.
+- Control hotbar and inventory/container previews separately. Enabled previews replace the corresponding vanilla text descriptions.
+- Optional **Tap outside to close preview** (off by default): the first outside tap closes only the inventory/container preview and keeps the item selected; the next tap works normally.
+- **Hotbar preview duration** uses seconds; the default `0` keeps it visible. Only selected hotbar previews are timed; inventory, container, and mouse-hover previews are unaffected.
+- Supports colored shulker names using `§` formatting codes.
+- Empty shulker boxes show an empty grid.
+
+Previews use the data actually received by the client. Contents that a server does not send cannot be previewed.
 
 ## Preview
 
@@ -52,7 +65,10 @@ Equip, replacement, empty-hand unequip, and continuous world/server transitions 
 - Minecraft 1.26.45.1
 - Minecraft 1.26.50.4
 - Minecraft 1.26.52.3
+- Minecraft 1.26.60.4
 - Android ARM64
+
+MoreInfo **1.0.2** supports all five Minecraft versions above and adds shulker box previews.
 
 Install the release that supports your exact Minecraft version. Unlisted versions are rejected instead of being force-loaded, which helps prevent crashes.
 
