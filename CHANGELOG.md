@@ -1,5 +1,10 @@
 # 更新记录 / Changelog
 
+## 未发布 / Unreleased
+
+- 补充背包主区域、背包内快捷栏和容器的原版槽位鼠标悬停预览，移开后隐藏，不受快捷栏显示时长限制；开发版等待 OTG 真机测试。
+- Adds native slot-hover shulker previews in the main inventory, its bottom hotbar, and containers, hiding on mouse exit and ignoring the hotbar duration. OTG device verification is pending in development builds.
+
 ## 1.0.2
 
 - 新增 Minecraft 1.26.60.4 支持，并修复新版经典界面下快捷栏装备与状态信息不显示的问题。

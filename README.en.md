@@ -35,11 +35,13 @@ Equip, replacement, empty-hand unequip, and continuous world/server transitions 
 - Preview all 27 slots and item counts in the hotbar, inventory, and containers, with size and position controls.
 - Control hotbar and inventory/container previews separately. Enabled previews replace the corresponding vanilla text descriptions.
 - Optional **Tap outside to close preview** (off by default): the first outside tap closes only the inventory/container preview and keeps the item selected; the next tap works normally.
-- **Hotbar preview duration** uses seconds; the default `0` keeps it visible. Only selected hotbar previews are timed; inventory, container, and mouse-hover previews are unaffected.
+- **Hotbar preview duration** uses seconds; the default `0` keeps it visible. Only selected hotbar previews are timed; inventory and container previews are unaffected.
 - Supports colored shulker names using `§` formatting codes.
 - Empty shulker boxes show an empty grid.
 
 Previews use the data actually received by the client. Contents that a server does not send cannot be previewed.
+
+Mouse controls: the stable `1.0.2` release currently requires clicking to select a shulker box. Mouse-hover previews in the main inventory, its bottom hotbar, and container slots are being tested in development builds; a stable fix has not been released yet.
 
 ## Preview
 
