@@ -2,8 +2,18 @@
 
 ## 未发布 / Unreleased
 
-- 补充背包主区域、背包内快捷栏和容器的原版槽位鼠标悬停预览，移开后隐藏，不受快捷栏显示时长限制；开发版等待 OTG 真机测试。
-- Adds native slot-hover shulker previews in the main inventory, its bottom hotbar, and containers, hiding on mouse exit and ignoring the hotbar duration. OTG device verification is pending in development builds.
+暂无。 / No changes yet.
+
+## 1.0.3
+
+- 修复测试版切换彩色潜影盒时的闪退，修正颜色编号读取所使用的内部对象类型。
+- Fixes a development-build crash when selecting colored shulker boxes by correcting the internal object type used to read their color value.
+- 潜影盒预览面板随盒子颜色变化，覆盖未染色和全部 16 种染色；彩色边框搭配同色系深色底板，物品图标保持原色，快捷栏、背包、容器与鼠标悬停预览保持一致。
+- Shulker preview panels follow the box color, including undyed and all 16 dyed variants. Colored borders and dark matching backgrounds preserve original item colors across hotbar, inventory, container, and mouse-hover previews.
+- LL 的 MoreInfo 设置中新增独立 Debug 分组，提供日志开关与实际保存目录。默认关闭，开启后将玩家名称、XUID、设备及模组诊断写入本机日志，便于复现问题。
+- Adds a Debug category to MoreInfo's LL settings, with a logging switch and the actual log location. Off by default; when enabled, player name, XUID, device details, and mod diagnostics are recorded locally to help reproduce issues.
+- 补充背包主区域、背包内快捷栏和容器的原版槽位鼠标悬停预览，移开后隐藏，不受快捷栏显示时长限制；OTG 鼠标悬停预览已由玩家实测通过。
+- Adds native slot-hover shulker previews in the main inventory, its bottom hotbar, and containers, hiding on mouse exit and ignoring the hotbar duration. OTG mouse-hover previews have passed player testing.
 
 ## 1.0.2
 

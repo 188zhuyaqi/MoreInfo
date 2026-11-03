@@ -21,6 +21,7 @@ Select a shulker box to view its contents and item counts directly.
 - Long-press an armor or offhand slot to view the item's name and exact durability (current / maximum)
 - Displays FPS and battery temperature
 - Previews all 27 slots and item counts of a selected shulker box in the hotbar, inventory, and containers
+- Matches preview panels to the shulker color and supports mouse-hover previews in inventories and containers
 - Lets you adjust position, scale, and text size
 - Switches between vanilla and transparent slot frames
 - Switches the interface between Simplified Chinese and English; Simplified Chinese is the default
@@ -38,10 +39,11 @@ Equip, replacement, empty-hand unequip, and continuous world/server transitions 
 - **Hotbar preview duration** uses seconds; the default `0` keeps it visible. Only selected hotbar previews are timed; inventory and container previews are unaffected.
 - Supports colored shulker names using `§` formatting codes.
 - Empty shulker boxes show an empty grid.
+- Preview panels match undyed and all 16 dyed shulker colors, including renamed boxes, while preserving original item colors.
 
 Previews use the data actually received by the client. Contents that a server does not send cannot be previewed.
 
-Mouse controls: the stable `1.0.2` release currently requires clicking to select a shulker box. Mouse-hover previews in the main inventory, its bottom hotbar, and container slots are being tested in development builds; a stable fix has not been released yet.
+Hover over a shulker box in the main inventory, its bottom hotbar, or a container to preview it. Moving away hides the preview; the hotbar duration setting does not apply. OTG mouse-hover previews have passed player testing.
 
 ## Preview
 
@@ -70,7 +72,7 @@ Mouse controls: the stable `1.0.2` release currently requires clicking to select
 - Minecraft 1.26.60.4
 - Android ARM64
 
-MoreInfo **1.0.2** supports all five Minecraft versions above and adds shulker box previews.
+MoreInfo **1.0.3** supports all five Minecraft versions above and includes color-matched shulker previews, mouse-hover previews, and optional Debug logs.
 
 Install the release that supports your exact Minecraft version. Unlisted versions are rejected instead of being force-loaded, which helps prevent crashes.
 
@@ -85,6 +87,7 @@ If the launcher reports an incompatible version, confirm that your full Minecraf
 
 ## Notes
 
+- Open **MoreInfo → Debug** in LL's mod menu to enable logging and view its actual location. Logging is off by default. Enabling it records player name, XUID, device details, and mod diagnostics locally; disable it after reproducing an issue and share the log if needed. Logs are never uploaded automatically.
 - The temperature reading is the device's **battery temperature**, not its CPU or GPU temperature.
 - System status data may be briefly delayed or unavailable on some devices.
 - When reporting a problem through [Issues](https://github.com/188zhuyaqi/MoreInfo/issues), include the full versions of Minecraft, LeviLauncher, and MoreInfo, along with a screenshot or relevant logs.
