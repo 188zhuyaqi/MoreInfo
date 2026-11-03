@@ -4,9 +4,9 @@
 
 <h1 align="center">MoreInfo</h1>
 
-<p align="center">Keep essential equipment and device status beside the hotbar—no need to repeatedly open your inventory.</p>
+<p align="center">Keep essential equipment and device status beside the hotbar��no need to repeatedly open your inventory.</p>
 
-<p align="center"><a href="README.md">简体中文</a> · <strong>English</strong></p>
+<p align="center"><a href="README.md">��������</a> �� <strong>English</strong></p>
 
 MoreInfo is an in-game information display mod for LeviLauncher on Android. It shows four equipped armor slots and an offhand slot to the left of the hotbar, displays FPS and battery temperature to the right, and provides in-game settings that take effect immediately.
 Select a shulker box to view its contents and item counts directly.
@@ -37,7 +37,7 @@ Equip, replacement, empty-hand unequip, and continuous world/server transitions 
 - Control hotbar and inventory/container previews separately. Enabled previews replace the corresponding vanilla text descriptions.
 - Optional **Tap outside to close preview** (off by default): the first outside tap closes only the inventory/container preview and keeps the item selected; the next tap works normally.
 - **Hotbar preview duration** uses seconds; the default `0` keeps it visible. Only selected hotbar previews are timed; inventory and container previews are unaffected.
-- Supports colored shulker names using `§` formatting codes.
+- Supports colored shulker names using `��` formatting codes.
 - Empty shulker boxes show an empty grid.
 - Preview panels match undyed and all 16 dyed shulker colors, including renamed boxes, while preserving original item colors.
 
@@ -72,7 +72,7 @@ Hover over a shulker box in the main inventory, its bottom hotbar, or a containe
 - Minecraft 1.26.60.4
 - Android ARM64
 
-MoreInfo **1.0.3** supports all five Minecraft versions above and includes color-matched shulker previews, mouse-hover previews, and optional Debug logs.
+MoreInfo **1.0.4** supports all five Minecraft versions above and includes color-matched shulker previews, mouse-hover previews, and optional Debug logs.
 
 Install the release that supports your exact Minecraft version. Unlisted versions are rejected instead of being force-loaded, which helps prevent crashes.
 
@@ -87,7 +87,7 @@ If the launcher reports an incompatible version, confirm that your full Minecraf
 
 ## Notes
 
-- Open **MoreInfo → Debug** in LL's mod menu to enable logging and view its actual location. Logging is off by default. Enabling it records player name, XUID, device details, and mod diagnostics locally; disable it after reproducing an issue and share the log if needed. Logs are never uploaded automatically.
+- Open **MoreInfo �� Debug** in LL's mod menu to enable logging and view its actual location. Logging is off by default. Enabling it records player name, XUID, device details, and mod diagnostics locally; disable it after reproducing an issue and share the log if needed. Logs are never uploaded automatically.
 - The temperature reading is the device's **battery temperature**, not its CPU or GPU temperature.
 - System status data may be briefly delayed or unavailable on some devices.
 - When reporting a problem through [Issues](https://github.com/188zhuyaqi/MoreInfo/issues), include the full versions of Minecraft, LeviLauncher, and MoreInfo, along with a screenshot or relevant logs.
