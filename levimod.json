@@ -12,7 +12,7 @@
   "info": {
     "name": "MoreInfo",
     "author": "zhuyaqi",
-    "description": "�ڿ��������ʾ�����븱�֡���ȷ�;á�FPS �͵���¶ȣ��ṩ���ɫǱӰ��Ԥ���������ͣԤ��������˫����������Ӣ�����ü���ѡ Debug ��־�� Displays armor, offhand items, precise durability, FPS, and battery temperature beside the hotbar, with color-matched shulker previews, mouse-hover previews, double-tap offhand interaction, Chinese/English settings, and optional Debug logs.",
+    "description": "在快捷栏旁显示盔甲与副手、精确耐久、FPS 和电池温度；提供随盒色潜影盒预览、鼠标悬停预览、副手双击交互、中英文设置及可选 Debug 日志。 Displays armor, offhand items, precise durability, FPS, and battery temperature beside the hotbar, with color-matched shulker previews, mouse-hover previews, double-tap offhand interaction, Chinese/English settings, and optional Debug logs.",
     "homepage_url": "https://github.com/188zhuyaqi/MoreInfo",
     "icon": "assets/icon.png",
     "tags": [
