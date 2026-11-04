@@ -72,7 +72,7 @@ Hover over a shulker box in the main inventory, its bottom hotbar, or a containe
 - Minecraft 1.26.60.4
 - Android ARM64
 
-MoreInfo **1.0.4** supports all five Minecraft versions above and includes color-matched shulker previews, mouse-hover previews, and optional Debug logs.
+MoreInfo **1.0.5** supports all five Minecraft versions above and includes color-matched shulker previews, mouse-hover previews, and optional Debug logs.
 
 Install the release that supports your exact Minecraft version. Unlisted versions are rejected instead of being force-loaded, which helps prevent crashes.
 
