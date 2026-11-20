@@ -72,9 +72,11 @@ MoreInfo 是为 Android 版 LeviLauncher 制作的游戏内信息显示模组。
 - Minecraft 1.26.50.4
 - Minecraft 1.26.52.3
 - Minecraft 1.26.60.4
+- Minecraft 1.26.62.1
+- Minecraft 1.26.66.1
 - Android ARM64
 
-MoreInfo **1.0.5** 支持以上五个 Minecraft 版本，提供随盒色潜影盒预览、鼠标悬停预览与可选 Debug 日志。
+MoreInfo **1.0.6** 支持以上七个 Minecraft 版本，提供随盒色潜影盒预览、鼠标悬停预览与可选 Debug 日志。
 
 请为实际使用的 Minecraft 版本安装对应支持版本。未列出的版本不会强行加载，以避免崩溃。
 

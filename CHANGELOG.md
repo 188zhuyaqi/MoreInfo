@@ -1,5 +1,10 @@
 # 更新记录 / Changelog
 
+## 1.0.6
+
+- 适配 Minecraft 1.26.62.1 和 1.26.66.1。
+- Adds compatibility for Minecraft 1.26.62.1 and 1.26.66.1.
+
 ## 1.0.5
 
 - 优化底层实现逻辑，提升运行稳定性与兼容性。
