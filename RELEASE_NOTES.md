@@ -1,4 +1,4 @@
-# MoreInfo 1.0.6
+# MoreInfo 1.0.7
 
-- 适配 Minecraft 1.26.62.1 和 1.26.66.1。
-- Adds compatibility for Minecraft 1.26.62.1 and 1.26.66.1.
+- 修复了部分材质包在 1.26.60+ 不兼容的问题，并优化了一些引用逻辑。
+- Fixed compatibility issues with some resource packs on Minecraft 1.26.60+ and optimized internal asset/reference handling.
